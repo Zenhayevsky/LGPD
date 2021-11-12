@@ -1,0 +1,81 @@
+.login {
+    background-color: #4C5C68 ;
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 450px;
+    margin: auto;
+}
+
+.login .dadosLogin1 {
+    margin:30px;
+    color: white;
+    display: table;
+    margin: 25px 65px 100px 65px;
+}
+
+input {
+  display: block;
+  background-color:"#EBEBEB";
+  border:white;
+  border-width:1;
+  caret-color:"#333";
+  font-size: 16;
+  line-height: 1.4;
+  max-width: 10;
+  color:"#aaa";
+  text-align: left;
+  color:"#333";
+  width: 280px;
+  height: 35px;
+  border-radius: 6px;
+  }
+
+.login .dadosLogin1 label {
+  overflow: visible;
+  white-space: pre;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 1.2;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.login .dadosLogin1 .espaco {
+    margin-bottom: 13px;
+}
+
+.login .dadosLogin1 .esqueciSenha{
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    width: auto; 
+    height: auto; 
+    overflow: visible;
+    white-space: pre;
+    font-weight: 100;
+    font-style: italic;
+    font-family: "Inter-ThinItalic", "Inter", sans-serif;
+    text-align: right;
+    margin-left: 130px;
+}
+
+.btnLogin {
+  align-self:"center";
+  color:#ffffff;
+  background-color:rgb(25, 133, 161);
+  width: 150px;
+  height: 35px;
+  margin: 20px 50px 40px 50px;
+}
+
+hr {
+  margin-bottom: 40px;
+}
+
+.footerLogin {
+  margin-right: 460px;
+}

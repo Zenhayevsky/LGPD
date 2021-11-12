@@ -1,0 +1,65 @@
+.header1 {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 70px;
+    background-color: #4c5c68;
+    overflow: visible;
+    border: 0px solid #222;
+    color: white;
+
+    width: auto; /* 262px */
+    height: auto; /* 78px */
+    overflow: visible;
+    white-space: pre;
+    font-weight: 600;
+    font-family: "Inter-SemiBold", "Inter", sans-serif;
+    font-size: 10px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    
+}
+
+.header1 a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header1 .logo {
+    display:flex;
+    position: absolute;
+    max-height: 50px;
+    margin-left: 400px;
+}
+
+.icon {
+    font-size: 70px;
+}
+
+.setpower {
+    font-size: 70px;
+    margin-left: 1290px;
+    margin-bottom: -32px;
+    position: absolute;
+}
+
+.btnLink{
+    position: relative;
+    display: flex;
+    margin-left: 85px;
+}
+
+.nameLink {
+    position: absolute;
+    display:flex;
+    font-size: 25px;
+    margin-left: 395px;
+}
+
+.nameLink a{
+    margin-left: -55px;
+    margin-right: 100px;
+    margin-top: 50px;
+    color: white;
+}
